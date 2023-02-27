@@ -1,0 +1,201 @@
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190620/ourmid/pngtree-final-battle-college-graduation-graduation-poster-design-image_145858.jpg);
+    background-repeat: no-repeat;
+    
+    background-size: 100% 102%;
+   padding-left: 3px;
+   background-attachment: fixed;
+   
+    
+}
+.back{
+    color: rgb(247, 50, 50);
+    font-size: 20px;
+    margin-left: 1450px;
+}
+.back:hover{
+    color: green;
+    font-size: 18px;
+}
+.fulldiv{
+    width:fit-content;
+    padding: 35px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 17px;
+    margin-left: 400px;
+    margin-top: 100px;
+    border: double  4px rgb(254, 254, 254);
+}
+.signin{
+    font-size: 35px;
+    color: aquamarine;
+    letter-spacing: 2px;
+    margin-left: 30px;
+    /* padding-left: 30px; */
+    margin-top: 0;
+}
+.signpra{
+    color: rgb(12, 12, 12);
+    margin-left: 15px;
+}
+.signspan{
+    color: brown;
+    font-size: 18px;
+}
+.signspan:hover{
+    color: rgb(10, 207, 63);
+    font-size: 20px;
+}
+.signlabel{
+    color: #fff;
+    font-size: 25px;
+    margin-left: 45px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-style: normal;
+}
+.signinput{
+    margin-left: 40px;
+    font-size: 15px;
+    font-style: italic;
+}
+.signlogin{
+    margin-left: 85px;
+    margin-top: 20px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    background-color: rgb(147, 90, 5);
+    color: #fff;
+    font-size: 22px;
+    border-radius: 10px;
+}
+.signlogin:hover{
+    background-color: greenyellow;
+    color: red;
+    font-size: 20px;
+}
+.signlogina{
+    color: #fff;
+    font-size: 22px;
+}
+.signlogina:hover{
+   
+    color: red;
+    font-style: italic;
+    font-size: 20px;
+}
+.or{
+    color: green;
+    margin-left: 10px;
+}
+.logo{
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 15px;
+    padding: 0;
+}
+
+.signgoogle{
+    
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1.7;
+
+}
+.signfacebook{
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-bottom: 20px;
+    letter-spacing: 1.4;
+
+}
+ .signinstagram{
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 10px;
+    letter-spacing: 1.4;
+
+}
+
+.signgoogle:hover{
+    
+    font-size: 19px;
+   background-color: aquamarine;
+   color: rgb(239, 127, 63);
+
+
+}
+.signfacebook:hover{
+    font-size: 19px;
+   background-color: aquamarine;
+   color: rgb(239, 127, 63);
+}
+ .signinstagram:hover{
+    font-size: 19px;
+   background-color: aquamarine;
+   color: rgb(239, 127, 63);
+}
+.forgot{
+    font-size: 15px;
+    color: rgb(245, 122, 45);
+    padding-top: 10px;
+    padding-left: 200px;
+}
+a{
+    overflow: hidden;
+    text-decoration: none;
+}
+.forgot:hover{
+    font-size: 17px;
+    color: rgb(103, 235, 103);
+}
+.ptag{
+    padding-left: 20px;
+    padding-top: 20px;
+    font-size: 14px;
+    color: #fff;
+    font-style: italic;
+    margin-left: 500px;
+}
+.ptagatag{
+    font-size: 15px;
+    color: orange;
+    font-style: italic;
+}
+.ptagatag:hover{
+    font-size: 16px;
+    color: greenyellow;
+    font-style: normal;
+}
+.line{
+    
+    color: aquamarine;
+}
+.linehead{
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    padding-left: 25px;
+    font-weight: bold;
+}
+.lineatag{
+    font-size: 18px;
+    font-style: normal;
+    color: orange;
+}
+.lineatag:hover{
+    font-size: 20px;
+    color: greenyellow;
+
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="Sign up.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+   
+    <div class="fulldiv">
+        <h1 class="signin">SIGN UP</h1>
+       
+        <P class="signpra"> Fill the details to sign up or <a class="signspan" href="Sign in.html"><span >sign in</span></a>  to get started.</P>
+        <p class="lin">______________________________________________________</p>
+        <form action="">
+           <label class="signlabel" for="fname">Name : </label>
+          
+           <input class="signinput" id="name" type="text" name="username" required placeholder="Enter Your Name *">
+           <br><br>
+           <label class="signlabel" id="email" for="email">Email Id : </label>
+          
+           <input class="signinput" type="email" name="email" required placeholder="abc@gmail.com *">
+        <br><br>
+        <label class="signlabel" id="birth" for="fname">Enter Your Date Of Birth : </label>
+       
+        <input class="signinput" type="date">
+         <br><br>
+       
+        
+        <label class="signlabel" id="gender" for="fname">Select Your Gender : </label>
+        <br>
+        <input  id="qua" type="radio" name="gender"> <span class="box">Male</span> 
+        <br>
+        <input   id="qua" type="radio" name="gender"> <span class="box">Female</span> 
+        <br>
+        <input   id="qua" type="radio" name="gender"> <span class="box"> Others</span>
+        <br><br>
+        
+        <label class="signlabel" id="qualifications" for="fname" >Select Your Qualifications : </label>
+       <br>
+        <input  id="qu" type="checkbox" > <span class="box">10th</span> 
+        <br>
+        <input   id="qu" type="checkbox" > <span class="box"> 12th</span>
+        <br>
+        <input   id="qu" type="checkbox"> <span class="box">Graduate</span> 
+        <br>
+        <input   id="qu" type="checkbox"> <span class="box">Post-Graduate</span> 
+        <br>
+        <input   id="qu" type="checkbox"> <span class="box">More</span> 
+        
+        <br><br>
+        <label class="signlabel" id="number" for="fname">Enter Your Contact Number : </label>
+        
+        <input class="signinput"  type="number" required placeholder="10 Digit mobile number">
+        <br><br>
+        
+        <label class="signlabel" id="user" for="fname">Enter A user name : </label>
+        
+        <input class="signinput" type="text" required placeholder="abc123">
+        <br><br>
+    
+
+           <label class="signlabel" id="password" for="password">Password : </label>
+          
+           <input class="signinput" type="password" name="password" required placeholder=" Password *">
+        
+        
+           <br><br>
+           <label class="signlabel" id="confirm" for="password">Confirm Password : </label> 
+          
+           
+           <input class="signinput"  type="password" name="password" required placeholder="Confirm Password *">
+         
+           <br><br>
+        
+           <button class="signlogin">  <a href="Main_page.html"> Sign Up</a></button>
+           <br>
+       </form>
+           <h3 class="or">____________________ OR ___________________</h3>
+           
+           <div class="b">
+               <a class="a" href="https://accounts.google.com/gsi/select?client_id=49625052041-kgt0hghf445lmcmhijv46b715m2mpbct.apps.googleusercontent.com&ux_mode=popup&ui_mode=card&as=frfM8IoogtPCAGUPhDIWUA&channel_id=5e5ce2902b6192061c8978301ac8e54a1a1f23bad257d3ae2acad518b73b77f8&origin=https%3A%2F%2Ftwitter.com&pli=1&authuser=0"><button class="signgoogle"><img class="logo" src="google.png" alt=""> Sign in with Google </button></a>
+               <br>
+               <a class="a" href="https://www.facebook.com/login.php?skip_api_login=1&api_key=124024574287414&kid_directed_site=0&app_id=124024574287414&signed_next=1&next=https%3A%2F%2Fwww.facebook.com%2Fdialog%2Foauth%3Fclient_id%3D124024574287414%26redirect_uri%3Dhttps%253A%252F%252Fwww.instagram.com%252Faccounts%252Fsignup%252F%26state%3D%257B%2522fbLoginKey%2522%253A%2522oii88qebfgw11d08esjyv21dszmhedbp0m3w3yoq9zmfaw71s%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%26scope%3Demail%26response_type%3Dcode%252Cgranted_scopes%26locale%3Den_US%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D87bb5663-6278-4fc8-8f14-0d7708fb543a%26tp%3Dunspecified&cancel_url=https%3A%2F%2Fwww.instagram.com%2Faccounts%2Fsignup%2F%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%2522fbLoginKey%2522%253A%2522oii88qebfgw11d08esjyv21dszmhedbp0m3w3yoq9zmfaw71s%2522%252C%2522fbLoginReturnURL%2522%253A%2522%252Ffxcal%252Fdisclosure%252F%253Fnext%253D%25252F%2522%257D%23_%3D_&display=page&locale=en_GB&pl_dbl=0"><button class="signfacebook"><img class="logo" src="facebook.png" alt=""> Sign in with Facebook</button></a>
+               <br>
+             
+           </div>
+          
+           <p class="line">_________________________________________________</p>
+           <h4 class="linehead">Already have an account? <a class="lineatag" href="Sign in.html"> Sign in</a></h4>
+       </div>
+          
+   </div>
+
+   <script>
+    function myFunction(){
+        var x = document.getElementById("myInput");
+        var y = document.getElementById("hide1");
+        var z = document.getElementById("hide2");
+
+        if(x.type === 'password')
+        {
+            x.type = "text";
+            y.style.display = "block";
+            z.style.display = "none";
+        }
+        else{
+            x.type = "passwors";
+            y.style.display = "none";
+            z.style.display = "block";
+        }
+    }
+   </script>
+</body>
+</html>

@@ -1,0 +1,213 @@
+body{ 
+    background-image: url(https://images.livemint.com/rf/Image-621x414/LiveMint/Period2/2018/11/27/Photos/Processed/digilocker-kjyC--621x414@LiveMint.jpg);
+   /* background-image: url(https://t3.ftcdn.net/jpg/03/99/24/82/360_F_399248286_Ogm0T8CFeauN4Hdn42FqWfsCE02dJBbX.jpg);*/
+    background-repeat: no-repeat;
+    background-position: right;
+   /*background-size: 100% 100%;*/
+   background-size: 100% auto;
+   padding-left: 3px;
+   background-attachment: fixed;
+   
+    
+}
+.signlogin{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+a{
+    overflow: hidden;
+    text-decoration: none;
+}
+.back{
+    color: rgb(247, 50, 50);
+    font-size: 20px;
+    margin-left: 1450px;
+}
+.back:hover{
+    color: green;
+    font-size: 18px;
+}
+.fulldiv{
+    width:fit-content;
+    padding: 35px;
+    border-radius: 17px;
+    margin-left: 90px;
+    margin-top: 60px;
+    border: solid 4px rgb(166, 234, 10);
+}
+.signin{
+    font-size: 35px;
+    color: rgb(245, 132, 46);
+    letter-spacing: 2px;
+    margin-left: 100px;
+    padding-left: 25px;
+    margin-top: 0;
+}
+.signpra{
+    color: rgb(247, 244, 244);
+    margin-left: 40px;
+}
+.signspan{
+  color: rgb(16, 242, 103);
+    font-size: 18px;
+}
+.signspan:hover{
+      color: rgb(239, 160, 12);
+    font-size: 20px;
+}
+
+.signlabel{
+    color: rgb(164, 230, 242);
+    font-size: 20px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    font-style: normal;
+}
+.signinput{
+    margin-left: 12px;
+    font-size: 15px;
+    font-style: italic;
+}
+#qua{
+    margin-left: 250px;
+  
+}
+#qu{
+    margin-left: 280px;
+    color: rgb(228, 242, 216);
+}
+#name{
+    padding-left: 15px;
+}
+#email{
+    padding-left: 30px;
+}
+#birth{
+    padding-left: 0;
+}
+#gender{
+    padding-left: 50px;
+}
+#qualifications{
+    padding-left: 15px;
+}
+#number{
+    padding-left: 0;
+}
+#user{
+    padding-left: 15px;
+}
+#password{
+    padding-left: 22px;
+}
+#confirm{
+    padding-left: 0;
+}
+.signlogin{
+    margin-left: 150px;
+    margin-top: 20px;
+    background-color: rgb(147, 90, 5);
+    color: #fff;
+    font-size: 22px;
+}
+.signlogin:hover{
+    background-color: greenyellow;
+    color: red;
+    font-size: 20px;
+}
+
+
+.or{
+    color: rgb(240, 67, 32);
+    margin-left: 20px;
+    padding-top: 20px;
+}
+.logo{
+    width: 20px;
+    height: auto;
+    margin-right: 10px;
+    margin-left: 15px;
+    padding: 0;
+}
+.imgicon{
+    margin-left: 5px;
+    width: 30px;
+    height: auto;
+}
+
+#hide1{
+    display: none;
+}
+
+.signgoogle{
+    
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 110px;
+    padding-left: 20px;
+    margin-bottom: 20px;
+    letter-spacing: 1.7;
+
+}
+.signfacebook{
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bold;
+    margin-left: 110px;
+    margin-bottom: 20px;
+    letter-spacing: 1.4;
+
+}
+ 
+
+.signgoogle:hover{
+    
+    font-size: 19px;
+   background-color: aquamarine;
+   color: rgb(239, 127, 63);
+
+
+}
+.signfacebook:hover{
+    font-size: 19px;
+   background-color: aquamarine;
+   color: rgb(239, 127, 63);
+}
+ 
+
+.line{
+    margin-left: 25px;
+    color: aquamarine;
+}
+.lin{
+    margin-left: 10px;
+    color: rgb(240, 67, 32);
+}
+.linehead{
+    font-size: 18px;
+    font-style: italic;
+    color: #fff;
+    padding-left: 100px;
+    font-weight: bold;
+}
+.lineatag{
+    font-size: 18px;
+    font-style: normal;
+    color: orange;
+}
+.lineatag:hover{
+    font-size: 20px;
+    color: greenyellow;
+
+}
+.box{
+    color: rgb(179, 207, 207);
+}
+
+
+

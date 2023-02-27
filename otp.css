@@ -1,0 +1,93 @@
+body{
+   background-image: url(https://securityintelligence.com/wp-content/uploads/2017/01/384979-630x330.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.back{
+    color: rgb(247, 50, 50);
+    font-size: 20px;
+    margin-left: 1450px;
+}
+.back:hover{
+    color: green;
+    font-size: 18px;
+}
+.fulldiv{
+    margin-left: 800px;
+    margin-top: 120px;
+    border-left: solid 4px rgb(151, 246, 104);
+    border-top: solid 4px rgb(241, 114, 24);
+    border-right: solid 4px rgb(151, 246, 104);
+    border-bottom: solid 4px rgb(241, 115, 24);
+    border-radius: 18px;
+    
+    width: 600px;
+    height: 400px;
+}
+h1{
+    margin-left: 195px;
+    margin-top: 40px;
+    color: orange;
+    font-size: 38px;
+}
+.pra{
+    color: aliceblue;
+    margin-left: 180px;
+    font-size: 17px;
+    font-style: italic;
+
+}
+input{
+    width: 200px;
+    height: 30px;
+    margin-left: 180px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+button{
+    border: solid 2px black;
+    border-radius: 6px;
+    margin-left: 250px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: rgb(190, 79, 79);
+    background-color: rgb(144, 247, 175);
+}
+button:hover{
+    font-size: 20px;
+    background-color: rgb(241, 203, 158);
+    color: rgb(45, 125, 245);
+    font-style: italic;
+}
+.or{
+    color: orange;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+.pra_r{
+    color: aliceblue;
+    margin-left: 180px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-style: italic;
+
+}
+.resend{
+    color: rgb(243, 183, 72);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+}
+.resend:hover{
+    color: rgb(144, 241, 25);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: bold;
+}
+a{
+    overflow: hidden;
+    text-decoration: none;
+}

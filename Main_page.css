@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+     background-image: url(university.jpg)  ;
+    background-attachment: fixed;
+     width: 100%;
+    background: linear-gradient(to top, rgba(27, 26, 26, 0.5)50%);
+   
+    background-position: auto;
+    background-size: cover;
+    height: 100vh;
+}
+.back{
+    color: rgb(247, 50, 50);
+    font-size: 20px;
+    margin-left: 1450px;
+}
+.back:hover{
+    color: green;
+    font-size: 18px;
+}
+.navbar{
+    width: 1480px;
+    height: 90px;
+    margin-top: 5px;
+    margin-left: 20px;
+    background-color: aquamarine;
+}
+.icon{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+.logo{
+ width: 110px;
+ height: auto;
+ margin-top: 1px;
+  margin-left: 5px;  
+    float: left;
+   
+   
+}
+.menu{
+    width: 400px;
+    height: 70px;
+    float: left;
+}
+ul{
+    float: left;
+    display: flex;
+    align-items: center;
+    
+}
+.imglogo{
+    width: 25px;
+    height: auto;
+    margin-top: 0;
+    align-items: center;
+}
+.imglogo:hover{
+    width: 20px;
+    height: auto;
+}
+.profilelogo{
+    width: 50px;
+    height: auto;
+    margin-left: 180px;
+    margin-top: 15px;
+}
+.profilelogo:hover{
+    
+    width: 40px;
+    height: auto;
+}
+.threedot:hover{
+    width: 27px;
+    height: auto;
+}
+.threedot{
+    width: 33px;
+    height: auto;
+    margin-left: 40px;
+    margin-top: 15px;
+    
+}
+ul li{
+    list-style: none;
+    margin-left: 85px;
+    margin-top: 25px;
+    font-size: 15px;
+}
+ul li  a{
+    text-decoration: none;
+    color: rgb(81, 78, 74);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+font-style: inherit;
+}
+ul li a:hover{
+    color: rgb(231, 91, 91);
+    font-style: italic;
+}
+.search{
+    width: 300px;
+    float: left;
+    margin-left: 500px;
+    
+    color: #0a0a0a;
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 200px;
+    height: 30px;
+    background: transparent;
+    border: 2px solid rgba(66, 65, 64, 0.648);
+    margin-top: 10px;
+    color: #0a0a0a;
+    background-color: white;
+    border-right: none;
+    font-size: 17px;
+    float: left;
+    padding: 8px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 80px;
+    background: rgb(255, 255, 255);
+    border: 2px solid #ef710b;
+    margin-top: 10px;
+    color: rgb(13, 12, 12);
+    font-size: 18px;
+   border-radius: 5px;
+}
+.btn:hover{
+    background-color: rgb(119, 235, 119);
+}
+.btn:focus{
+    outline: none;
+
+}
+.srch:focus{
+    outline: none;
+}
+.fullCon{
+    display: flex;
+    flex-direction: row;
+}
+.card1_4{
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    row-gap: 280px;
+}
+.card_page{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.card5_8{
+    margin-top: 50px;
+}
+.card5{
+    margin-left: 120px;
+}
+.infor{
+width: 450px;
+height: auto;
+margin: 10px;
+text-align: left;
+padding: 20px;
+text-overflow:inherit;
+background-color: #ccf0f0;
+border-radius: 15px;
+
+
+}
+
+.infor .first_heading{
+    font-family: 'Times New Roman';
+    font-size: 35px;
+    margin-left: 30px;
+    margin-top: 9%;
+    letter-spacing: 1.5px;
+    color: rgb(45, 43, 43);
+
+}
+.infor .pra{
+    font-size: 15px;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.1px;
+    line-height: 20px;
+    color:#0d0d0d;
+    text-align: justify;
+}
+.contact{
+    font-size: 18px;
+    font-style: italic;
+    margin-left: 1350px;
+   color: #abef0b;
+}
+.contact:hover{
+    font-size: 20px;
+     color: rgb(3, 3, 130);
+   
+}
+/* .card_page{
+    width: 1000px;
+} */
+
+.card{
+    margin-top: 20px;
+    background-image: url(div_background.jpg);
+    width: 200px;
+    height: 270px;
+    position: right;
+    box-sizing: border-box;
+    float: left;
+    margin-right: 50px;
+    padding: 0;
+    border-radius: 5px;
+   
+}
+
+
+.img_size{
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 180px;
+    height: 120px;
+    align-items: center;
+}
+a{
+    overflow: hidden;
+    text-decoration: none;
+}
+.div_h1{
+text-align: center;
+}
+.div_p{
+text-align: center;
+}
+.div_button{
+margin-top: 10px;
+margin-left: 50px;
+padding: 3px;
+padding-left:10px;
+padding-right: 10px;
+ font-size: 16px;
+    color: #523417;
+    background-color: rgb(121, 249, 207);
+    border-radius: 9px;
+
+}
+.div_button:hover{
+    color: #ef710b;
+background-color: rgb(88, 86, 86);
+font-size: 18px;
+}
+.morepart{
+    margin-left: 20px;
+    border: solid 4px rgb(17, 17, 17);
+    width: 90%;
+    height: auto;
+    background-color: #ecf4d9;
+    margin-left: 80px;
+   align-items: center;
+   text-align: center;
+}
+.mor_par{
+    color: #0c0c0c;
+}
+.mor_head{
+    color: #ef710b;
+}
+.more{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+    color: #0f0e0e;
+    border:dashed 3px #523417;
+}
+.address{
+    font-size: large;
+    font-style: italic;
+    font-weight: bold;
+    color: rgb(228, 18, 18);
+}
+.link{
+    width: 400px;
+    
+    border: solid 2.5px rgb(66, 65, 65);
+    border-radius: 15px;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 400px;
+    text-align: center;
+    background-color: #fff;
+    
+    margin: 50px;
+}
+.location{
+    font-style: normal;
+    color: blue;
+}
+.address:hover{
+    font-style: oblique;
+    color: #ef710b;
+}
+.location:hover{
+    font-style: italic;
+    color: #ef710b;
+
+}
+.mor_img{
+    width: 250px;
+    height: auto;
+    margin: 16px;
+    border-radius: 20px;
+    border: solid black 4px;
+}
+.con{
+    text-align: center;
+    color: #f4671c;
+}
+.dacomentbox{
+    width: fit-content;
+    height: auto;
+    border:solid 2px #171217;
+    background-color: #9a999a;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.dac{
+    display: inline-block;
+    color: #0a0a0a;
+}
+.dac:hover{
+    color: #abef0b;
+    font-style: italic;
+}
+.atag{
+    margin-left: 30px;
+}
+.atag:hover{
+    color: #abef0b;
+    font-weight: bold;
+    font-style: italic;
+}
+.icon{
+    width: 30px;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    background-color: #343234;
+}
+#allin{
+    margin-left: 1100px;
+}
+.iconlist{
+    background-color: #2d2c2d;
+}

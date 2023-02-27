@@ -1,0 +1,233 @@
+body {
+
+    padding: 0;
+    background-color: rgb(241, 246, 224);
+    margin-top: 10px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.back{
+    color: rgb(247, 50, 50);
+    font-size: 20px;
+    margin-left: 1370px;
+}
+.back:hover{
+    color: green;
+    font-size: 18px;
+}
+
+.fullcontent {
+    width: 1300px;
+    align-self: center;
+
+    border: solid rgb(142, 140, 140) 2px;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+.q_text {
+
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(238, 121, 121);
+}
+
+.a_text {
+    margin-left: 100px;
+    font-size: 17px;
+    color: rgb(67, 65, 65);
+    row-gap: 50px;
+}
+.B_Tech{
+    border: double rgb(142, 140, 140) 2px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 25px;
+    background-color: rgb(224, 246, 227);
+    padding-left: 30px;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+.MBA{
+    border: double rgb(142, 140, 140) 2px;
+    border-radius: 10px;
+    width: fit-content;
+    margin-left: 50px;
+    padding-left: 30px;
+    padding-bottom: 8px;
+    padding-top: 5px;
+    padding-right: 30px;
+    background-color: rgb(224, 247, 226);
+}
+.iimdiv{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+    
+}
+.Compare{
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    font-size: 17px;
+    background-color: rgb(239, 172, 124);
+    border-radius: 15px;
+    margin-left: 180px;
+}
+.Compare:hover{
+    font-style: italic;
+    background-color: rgb(191, 244, 150);
+}
+.iimhead{
+    font-weight: bold;
+}
+.iimspan{
+    color: rgb(153, 151, 151);
+    padding-left: 10px;
+}
+.q2_text {
+
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+    color: rgb(240, 140, 140);
+}
+.q2_pra{
+    width: 650px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+table{
+    border: double rgb(142, 140, 140) 3.5px;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+thead,th,tbody,td,tr{
+    border: double rgb(142, 140, 140) 2px;
+   
+}
+.sc_head{
+    font-size: 25px;
+    font-weight: bolder;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+}
+.all_div{
+    border: solid rgb(142, 140, 140) 3px;
+    border-radius: 10px;
+}
+#rspnsv-tpl{
+    border: solid rgb(142, 140, 140) 2px;
+    border-radius: 10px;
+    width: 310px;
+    margin-left: 20px;
+    margin-top: 40px;
+    
+    background-color: white;
+}
+.div1_4{
+display: flex;
+flex-direction: row;
+
+}
+.div4_8{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 40px ;
+    }
+._5f3e{
+    border-bottom: solid rgb(142, 140, 140) 1.5px ;
+    display: flex;
+    flex-direction: row;
+    padding-left: 90px;
+}
+.inlineLabel{
+    margin-top: 20px;
+    color: rgb(96, 94, 94);
+    font-size: 15px;
+}
+.instNamev2 {
+    max-width: 100%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    
+}
+a{
+    overflow: hidden;
+    text-decoration: none;
+}
+a:hover{
+    color: orange;
+    font-size: 18px;
+    font-style: italic;
+}
+.blockLabel{
+    color: rgb(94, 93, 93);
+    font-size: 15px;
+    padding-bottom: 8px;
+}
+.valueTxt{
+    color: blue;
+    font-size: 18px;
+    padding-top: 10px;
+}
+.flexRowEqual{
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid rgb(142, 140, 140) 1.5px ;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+.exam_div{
+    margin-left: 100px;
+}
+.exam_div2{
+    margin-left: 70px;
+}
+.btn1{
+    background-color: orange;
+    font-size: 16px;
+    font-style: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px;
+    border-radius: 10px;
+    margin-left: 40px;
+
+}
+.btn1:hover{
+    background-color: rgb(129, 139, 244);
+     font-style: italic;
+     font-size: 18px;
+}
+.btn2{
+    background-color: rgb(165, 244, 91);
+    font-size: 16px;
+    font-style: normal;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 15px;
+    border-radius: 10px;
+    margin-left: 30px;
+}
+.btn2:hover{
+    background-color: rgb(129, 139, 244);
+    font-style: italic;
+    font-size: 18px;
+}
+.sc_full{
+    margin-bottom: 30px;
+}
+
